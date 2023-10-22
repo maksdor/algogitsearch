@@ -1,0 +1,94 @@
+body {
+    background: #212325;
+    color: #D7D7D7;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-size:24px;
+}
+
+label {
+    margin:10px;
+    background: #1A1B1C;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+input {
+    padding:5px 10px;
+    background: #1A1B1C;
+    border-radius: 10px;
+    border-style: solid;
+    outline: none;
+    border:none;
+}
+
+button {
+    padding: 7px 10px;
+    color: white;
+    border:none;
+    background:none;
+    cursor: pointer;
+    border-left: 1px solid #151617;
+    background: #151617;
+
+}
+
+.card {
+    margin-top: 25px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:5px;
+    background: #1B1B1B;
+    border-radius:10px;
+}
+
+img {
+    width:300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+h1, p{
+    margin-top:10px;
+}
+
+nav {
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.text_blue {
+    color: blue
+}
+
+.text_red {
+    color: red;
+}
+
+.text_yellow {
+    color: yellow;
+}
+
+.text_green {
+    color:green;
+}
